@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".radioActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdggender">
+
+        <RadioButton
+            android:id="@+id/rdbmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:buttonTint="#DC0707">
+
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbfemale"
+            android:text="Female"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp">
+
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnverify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VERIFY"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#072B08">
+    </Button>
+    <TextView
+        android:id="@+id/txvgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+</LinearLayout>

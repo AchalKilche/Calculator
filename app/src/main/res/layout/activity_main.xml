@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Addition"
+        android:textSize="20dp"
+        android:id="@+id/btnaddition">
+
+    </Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="gender"
+        android:textSize="20dp"
+        android:id="@+id/btnradiobutton">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Hotel"
+        android:textSize="20dp"
+        android:id="@+id/btnradiobutton1">
+
+    </Button>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Checkbox"
+        android:textSize="20dp"
+        android:id="@+id/btncheckbox">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="checkbox1"
+        android:textSize="20dp"
+        android:id="@+id/btncheckbox1">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="clock"
+        android:textSize="20dp"
+        android:id="@+id/btnanalog">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="volume"
+        android:textSize="20dp"
+        android:id="@+id/btnskbr">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="sequence"
+        android:textSize="20dp"
+        android:id="@+id/btnsequence">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Login Form"
+        android:textSize="20dp"
+        android:id="@+id/btnLogin">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="ImageView"
+        android:textSize="20dp"
+        android:id="@+id/btnimage">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Switch"
+        android:textSize="20dp"
+        android:id="@+id/swtc">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Calculator"
+        android:textSize="20dp"
+        android:id="@+id/btncalculator">
+
+    </Button>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="WebView"
+        android:textSize="20dp"
+        android:id="@+id/web"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".radioActivity1">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgb1">
+       <RadioButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/rbpp"
+           android:buttonTint="#D30505"
+           android:text="PALAK PANEER [200/-]"
+           android:textSize="20dp"
+           android:checked="true"
+           android:textColor="@color/white">
+       </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbkk"
+            android:buttonTint="#D30505"
+            android:text="KAJU KARI [300/-]"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbnr"
+            android:buttonTint="#D30505"
+            android:text="NALANGA RICE [1000/-]"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white">
+        </RadioButton>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgb2">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbic"
+            android:buttonTint="#D30505"
+            android:text="ICE CREAM [80/-]"
+            android:textSize="20dp"
+            android:checked="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white">
+        </RadioButton>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbcd"
+            android:buttonTint="#D30505"
+            android:text="COLD DRINKS [30/-]"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white">
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="GET TOTAL"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#054A08"
+        android:id="@+id/btngt">
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txv1"
+        android:textColor="@color/white">
+
+    </TextView>
+</LinearLayout>

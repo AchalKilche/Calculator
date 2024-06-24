@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.achal">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Achal">
+        <activity
+            android:name=".Skbr"
+            android:exported="false" />
+        <activity
+            android:name=".swt"
+            android:exported="false" />
+        <activity
+            android:name=".PromptsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".menuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".alertd"
+            android:exported="false" />
+        <activity
+            android:name=".WebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".imageView"
+            android:exported="false" />
+        <activity
+            android:name=".LoginForm"
+            android:exported="false" />
+        <activity
+            android:name=".Seekbar"
+            android:exported="false" />
+        <activity
+            android:name=".DigitalAnalog"
+            android:exported="false" />
+        <activity
+            android:name=".radioActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".radioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckboxActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".CheckboxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SequenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalciActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

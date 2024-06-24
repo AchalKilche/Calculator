@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0C2835"
+    tools:context=".CheckboxActivity">
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#00BCD4"
+        android:id="@+id/chkc"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:buttonTint="#00BCD4"
+        android:checked="true"
+        android:text="C [2000/-]">
+
+    </CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#00BCD4"
+        android:id="@+id/chkcpp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:text="CPP [2500/-]">
+
+    </CheckBox>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#00BCD4"
+        android:textColor="@color/white"
+        android:id="@+id/chkmob"
+        android:textSize="15dp"
+        android:text="MOB APP [50000/-]">
+
+    </CheckBox>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Fees"
+        android:textSize="15dp"
+        android:textAllCaps="true"
+        android:id="@+id/btnfees"
+        android:backgroundTint="#BD1422">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txvfees"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+</LinearLayout>

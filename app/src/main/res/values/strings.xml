@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Achal</string>
+
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Grapes</item>
+        <item>Banana</item>
+        <item>Orange</item>
+        <item>kiwi</item>
+        <item>Mango</item>
+        <item>Cheery</item>
+        <item>Watermelon</item>
+    </string-array>
+
+</resources>
